@@ -12,4 +12,5 @@
 * command git checkout -b <name_of_brunch># создание brucnh или переключение
 * git checkout <name_of_brunch> #переключение на ветку
 * git remote -v #подключение к удаленному репозиторию
-* ^<>^
+*  **^<>^**
+* P.S Markdown - это язык разметки на котором написана данная документация.
