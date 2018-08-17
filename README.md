@@ -6,7 +6,7 @@
 * `git config -l or --list` # пользовательские настройки
 * `git init` # создание гит репозитория
 * `git add file_name.extension` #добавление файлов в индекс
-* `it commit -m "Message with your commit"` # коммит изменений в файлах проекта
+* `git commit -m "Message with your commit"` # коммит изменений в файлах проекта
 * `git status` #Отображает список изменённых файлов, вместе с файлами которые ещё не были добавлены в индекс или ожидают коммита
 * `git push origin master` # Перемещает изменения в главную ветку связанную с рабочим каталогом
 * `command git checkout -b <name_of_brunch>`# создание brucnh или переключение
@@ -20,7 +20,7 @@
   + Первый элемент
   + Второй элемент
   - Третий элемент
-## Example of **code**
+## Example of code
     print('Hello from python3!')
 
 
