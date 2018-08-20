@@ -1,5 +1,5 @@
 # Инструкция по GIT и Linux командам
-![](https://www.google.ru/url?sa=i&source=images&cd=&ved=2ahUKEwiNkdqv6_rcAhUtmIsKHaJeD_0QjRx6BAgBEAU&url=https%3A%2F%2Fmemepedia.ru%2Fnastalo-vremya-oxuitelnyx-istorij%2F&psig=AOvVaw2xprlmHh-7csbfKPvHXFjq&ust=1534827294219833)
+![Kotya ^^](https://cs9.pikabu.ru/post_img/big/2018/02/16/7/1518775251131173984.jpg)
 ## Работа с MarkDown
 * Ссылки. Чтобы создать ссылку, пишем `[Название ссылки](ссылка)`
   * Фотография вставляется с помощью ссылки с восклицательным знаком `![]()`
@@ -10,7 +10,7 @@
 * `git rm --cached` удаление файла из индекса, НО **оставляет** в рабочей директории
 
 ## Оформление цитат
->Everybody lies
+>Everybody lies @Doctor House
 ## Работа в git Bash
 
 * `mkdir folder_name` # создает папку
