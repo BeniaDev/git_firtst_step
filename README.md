@@ -10,6 +10,9 @@
 Table1        | Table2
 Table3        | Table4
 
+* P.S. в теме Arhitect крашаться таблицы... :(
+
+
 ## Работа с индексом
 * `git add filename` добавляет файл в индекс
 * `git rm filename` удаляет файл из индекса
