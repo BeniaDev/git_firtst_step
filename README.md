@@ -27,5 +27,5 @@
 
 ##Work with branches
 * `git checkout -b <new_brunch_name> ` создание новой ветки **new_branch_name**
-* `git checkout brach_name` переключение на branch_name
+* `git checkout brach_name` переключение на branch-name
 * `git merge branch_name` Включение изменений из другой ветки в текущую(**замерджить**) 
