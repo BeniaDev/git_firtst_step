@@ -1,6 +1,8 @@
 # Инструкция по GIT и Linux командам
-
-
+![](https://www.google.ru/url?sa=i&source=images&cd=&ved=2ahUKEwiNkdqv6_rcAhUtmIsKHaJeD_0QjRx6BAgBEAU&url=https%3A%2F%2Fmemepedia.ru%2Fnastalo-vremya-oxuitelnyx-istorij%2F&psig=AOvVaw2xprlmHh-7csbfKPvHXFjq&ust=1534827294219833)
+## Работа с MarkDown
+* Ссылки. Чтобы создать ссылку, пишем `[Название ссылки](ссылка)`
+  * Фотография вставляется с помощью ссылки с восклицательным знаком `[]!()`
 ## Работа с индексом
 * `git add filename` добавляет файл в индекс
 * `git rm filename` удаляет файл из индекса
