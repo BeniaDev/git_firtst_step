@@ -23,5 +23,5 @@
 ## Example of code
     print('Hello from python3!')
 
-## HERE YOU CAN FIND SOME INTERESTING INFO ABOUT MARKDOWN !!!
-[HERE]: https://gist.github.com/Jekins/2bf2d0638163f1294637
+## Work with Branch
+[Here you can find some interesting info about MarkDown + Vim work](https://gist.github.com/Jekins/2bf2d063816f1294637)
