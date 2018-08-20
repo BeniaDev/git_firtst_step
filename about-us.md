@@ -1,5 +1,5 @@
 # Some facts about me:
-* Love
+* Like
   + Programming
   - Music
   + Games
