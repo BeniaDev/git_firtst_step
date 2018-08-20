@@ -28,10 +28,10 @@
 ## Example of code
     print('Hello from python3!')
 
-###Helpful links:
-* [Here](https://gist.github.com/Jekins/2bf2d0638163f1294637)You can find some interesting info about work with Vim + Markdown
+### Helpful links:
+* [Here](https://gist.github.com/Jekins/2bf2d0638163f1294637) You can find some interesting info about work with Vim + Markdown
 
-##Work with branches
+## Work with branches
 * `git checkout -b <new_brunch_name> ` создание новой ветки **new_branch_name**
 * `git checkout brach_name` переключение на branch-name
 * `git merge branch_name` Включение изменений из другой ветки в текущую(**замерджить**) 
