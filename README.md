@@ -48,4 +48,4 @@ Table3        | Table4
 * `git checkout brach_name` переключение на branch-name
 * `git merge branch_name` Включение изменений из другой ветки в текущую(**замерджить**)
 
-# `git reset --hard` Возвращает до состояния последнего коммита
+#### `git reset --hard` Возвращает до состояния последнего коммита
