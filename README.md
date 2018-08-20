@@ -1,5 +1,6 @@
 # Инструкция по GIT и Linux командам
 ![Kotya ^^](https://cs.pikabu.ru/images/big_size_comm/2013-01_1/13570267338924.jpg)
+[Info about me]()
 # Работа с MarkDown
 * Ссылки. Чтобы создать ссылку, пишем `[Название ссылки](ссылка)`
   * Фотография вставляется с помощью ссылки с восклицательным знаком `![]()`
@@ -45,4 +46,6 @@ Table3        | Table4
 ## Work with branches
 * `git checkout -b <new_brunch_name> ` создание новой ветки **new_branch_name**
 * `git checkout brach_name` переключение на branch-name
-* `git merge branch_name` Включение изменений из другой ветки в текущую(**замерджить**) 
+* `git merge branch_name` Включение изменений из другой ветки в текущую(**замерджить**)
+
+# `git reset --hard` Возвращает до состояния последнего коммита
