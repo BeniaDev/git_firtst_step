@@ -1,4 +1,4 @@
-#Some facts about me:
+# Some facts about me:
 * Love
   + Programming
   - Music
@@ -10,5 +10,6 @@
 * Can play piano
 * Mobile phone : 1000100000101101101100011010010001
 *  email: piuman@gmail.com
-###P.S piu! piu! piu!
+### P.S piu! piu! piu!
 ![](https://i.ytimg.com/vi/X_BFAvA8Scc/maxresdefault.jpg)
+
