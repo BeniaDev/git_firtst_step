@@ -1,4 +1,5 @@
 const nums = document.getElementsByClassName('num-button');
+const numa = document.getElementsByClassName('num-action');
 const input = document.getElementById('num-input');
 enterNumber = (n) => {
     if (input.value === "0"){
@@ -8,7 +9,7 @@ enterNumber = (n) => {
         input.value = input.value + n;
     }
 };
-nums[id = 'bs'].onclick = () => {
+numa[id = 'bs'].onclick = () => {
     if (input.value.length ===1)
     {
         input.value = '0';
@@ -18,20 +19,20 @@ nums[id = 'bs'].onclick = () => {
     }
 };
 
-nums[id = 'num+'].onclick = () => {
+numa[id = 'num+'].onclick = () => {
     input.value +=  '+';
 
 };
-nums[id = 'num-'].onclick = () => {
+numa[id = 'num-'].onclick = () => {
     input.value +=  '-';
 };
-nums[id = 'num/'].onclick = () => {
+numa[id = 'num/'].onclick = () => {
     input.value +=  '/';
 };
-nums[id = 'num*'].onclick = () => {
+numa[id = 'num*'].onclick = () => {
     input.value +=  '*';
 };
-nums[id = 'num.'].onclick = () => {
+numa[id = 'num.'].onclick = () => {
     input.value +=  '.';
 };
 for (let i =0; i < nums.length; i++){
