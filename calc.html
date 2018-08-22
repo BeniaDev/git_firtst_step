@@ -7,8 +7,6 @@
     <meta name="keywords" content="Закон Яровой, котэдруги">
     <title>Calculator Bip Bup Bip</title>
 
-    <script type="text/javascript" src="main.js"></script>
-
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -16,35 +14,37 @@
 <table>
     <thead>
     <tr>
-        <td colspan="4"><input type="text" id="numm-input" title="Поле для ввода"></td>
+        <td colspan="4"><input type="text" id="num-input" title="Поле для ввода" contenteditable="false" value="0"></td>
     </tr>
     </thead>
     <tbody>
         <tr>
-            <td><button class="num-button">1</button></td>
-            <td><button class="num-button">2</button></td>
-            <td><button class="num-button">3</button></td>
-            <td><button class="num-button">+</button></td>
+            <td><button class="num-button" id="num1" value="1">1</button></td>
+            <td><button class="num-button" id="num2" value="2" >2</button></td>
+            <td><button class="num-button" id="num3"  value="3">3</button></td>
+            <td><button class="num-button" id="bs" ><<</button></td>
         </tr>
         <tr>
-            <td><button class="num-button">4</button></td>
-            <td><button class="num-button">5</button></td>
-            <td><button class="num-button">6</button></td>
-            <td><button class="num-button">-</button></td>
+            <td><button class="num-button" id ="num4" value="4">4</button></td>
+            <td><button class="num-button" id = "num5" value="5">5</button></td>
+            <td><button class="num-button" id="num6" value="6">6</button></td>
+            <td><button class="num-button" id="num+">+</button></td>
         </tr>
         <tr>
-            <td><button class="num-button">7</button></td>
-            <td><button class="num-button">8</button></td>
-            <td><button class="num-button">9</button></td>
-            <td><button class="num-button">*</button></td>
+            <td><button class="num-button" id ="num7" value="7" >7</button></td>
+            <td><button class="num-button" id="num8" value="8">8</button></td>
+            <td><button class="num-button" id="num9" value="9">9</button></td>
+            <td><button class="num-button" id="num*" value="*">*</button></td>
         </tr>
         <tr>
-            <td><button class="num-button">del</button></td>
-            <td><button class="num-button">0</button></td>
-            <td><button class="num-button">.</button></td>
-            <td><button class="num-button">/</button></td>
+            <td><button class="num-button" id="num-">-</button></td>
+            <td><button class="num-button" id="num0" value="0">0</button></td>
+            <td><button class="num-button" id="num.">.</button></td>
+            <td><button class="num-button" id="num/">/</button></td>
         </tr>
     </tbody>
 </table>
+<script type="text/javascript" src="main.js"></script>
+
 </body>
 </html>

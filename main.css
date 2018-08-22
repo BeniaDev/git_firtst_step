@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: #c686ff;
+    color: #ff7042;
 }
 
 button {
@@ -14,3 +14,7 @@ input {
     width:152.1px;
     text-align: right;
 }
+table {
+    background-color: #6b807d;
+}
+
