@@ -1,6 +1,8 @@
 h1 {
     text-align: center;
     color: #ff7042;
+    font-family: Rockwell;
+    font-size: x-large;
 }
 
 button {
@@ -15,6 +17,7 @@ input {
     text-align: right;
 }
 table {
-    background-color: #6b807d;
+    background-color: #6c806b;
 }
+
 
