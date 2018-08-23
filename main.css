@@ -6,18 +6,19 @@ h1 {
 }
 
 button {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
 }
 td,th {
-    padding : 5px;
+    padding : 2px;
 }
 input {
-    width:152.1px;
+    width:155px;
     text-align: right;
 }
 table {
-    background-color: #6c806b;
+
 }
 
 
