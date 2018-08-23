@@ -37,7 +37,7 @@ const minus_button = document.getElementById('num-');
 
 minus_button.onclick = () => {
     if (inOp) {
-        input.value = parseFloat(input.value) - num;
+        input.value = num - parseFloat(input.value);
         num = 0;
         inOp = false;
     }
