@@ -44,40 +44,59 @@ point.onclick = () => {
 
 
 plus_button.onclick = () => {
-    console.log('num=', num);
     if (!inOp2) {
         num = parseFloat(input.value);
         inOp2 = true;
-        input.value = 0;
+       input.value = 0;
+    }
+    else {
+        input.value = parseFloat(input.value) + num;
+        num = 0;
+        inOp2 = false;
+
     }
 };
 
 
 minus_button.onclick = () => {
-    console.log('num=', num);
-    if(!inOp3) {
+    if (!inOp3) {
         num = parseFloat(input.value);
         inOp3 = true;
         input.value = 0;
+    }
+    else {
+        input.value = num - parseFloat(input.value);
+        num = 0;
+        inOp3 = false;
     }
 };
 
 
 div_button.onclick = () => {
-    console.log('num=', num);
-    if(!inOp4) {
+    if (!inOp4) {
         num = parseFloat(input.value);
         inOp4 = true;
         input.value = 0;
+    }
+    else {
+        input.value = num / parseFloat(input.value);
+        num = 0;
+        inOp4 = false;
     }
 };
 
 
 inc_button.onclick = () => {
-    if(!inOp5) {
+    if (!inOp5) {
         num = parseFloat(input.value);
         inOp5 = true;
         input.value = 0;
+
+    }
+    else {
+        input.value = num * parseFloat(input.value);
+        num = 0;
+        inOp5 = false;
     }
 };
 
@@ -85,26 +104,10 @@ inc_button.onclick = () => {
 for (let i =0; i < nums.length; i++) {
     nums[id = 'num' + i].onclick = () => {
         enterNumber(nums[id = 'num' + i].value);
-        if (inOp2) {
-            input.value = parseFloat(input.value) + num;
-            num = 0;
-            inOp2 = false;
-        }
-        if (inOp3) {
-            input.value = num - parseFloat(input.value);
-            num = 0;
-            inOp3 = false;
-        }
-        if (inOp4) {
-            input.value = num / parseFloat(input.value);
-            num = 0;
-            inOp4 = false;
-        }
-        if (inOp5) {
-            input.value = num * parseFloat(input.value);
-            num = 0;
-            inOp5 = false;
-        }
+
+
+
+
     };
 }
 
