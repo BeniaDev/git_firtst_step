@@ -19,7 +19,6 @@ enterNumber = (n) => {
     }
 };
 
-
 backspaceButton.onclick = () => {
     if (input.value.length === 1) {
         input.value = '0'
@@ -47,7 +46,7 @@ plus_button.onclick = () => {
     if (!inOp2) {
         num = parseFloat(input.value);
         inOp2 = true;
-       input.value = 0;
+       input.value = null;
     }
     else {
         input.value = parseFloat(input.value) + num;
@@ -62,7 +61,7 @@ minus_button.onclick = () => {
     if (!inOp3) {
         num = parseFloat(input.value);
         inOp3 = true;
-        input.value = 0;
+        input.value = null;
     }
     else {
         input.value = num - parseFloat(input.value);
@@ -76,7 +75,7 @@ div_button.onclick = () => {
     if (!inOp4) {
         num = parseFloat(input.value);
         inOp4 = true;
-        input.value = 0;
+        input.value = null;
     }
     else {
         input.value = num / parseFloat(input.value);
@@ -90,7 +89,7 @@ inc_button.onclick = () => {
     if (!inOp5) {
         num = parseFloat(input.value);
         inOp5 = true;
-        input.value = 0;
+        input.value = null;
 
     }
     else {
@@ -104,10 +103,6 @@ inc_button.onclick = () => {
 for (let i =0; i < nums.length; i++) {
     nums[id = 'num' + i].onclick = () => {
         enterNumber(nums[id = 'num' + i].value);
-
-
-
-
     };
 }
 
