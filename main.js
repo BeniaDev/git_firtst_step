@@ -11,7 +11,6 @@ const backspaceButton = document.getElementById('bs');
 const div_button = document.getElementById('num/');
 const inc_button = document.getElementById('num*');
 const nums = document.getElementsByClassName('num-button');
-
 enterNumber = (n) => {
     if (input.value === '0') {
         input.value = n;
@@ -19,6 +18,7 @@ enterNumber = (n) => {
         input.value = input.value + n;
     }
 };
+
 
 backspaceButton.onclick = () => {
     if (input.value.length === 1) {
@@ -41,6 +41,7 @@ point.onclick = () => {
     }
     enterNumber('.');
 };
+
 
 plus_button.onclick = () => {
     console.log('num=', num);
@@ -71,6 +72,7 @@ div_button.onclick = () => {
     }
 };
 
+
 inc_button.onclick = () => {
     if(!inOp5) {
         num = parseFloat(input.value);
@@ -78,7 +80,6 @@ inc_button.onclick = () => {
         input.value = 0;
     }
 };
-
 
 
 for (let i =0; i < nums.length; i++) {

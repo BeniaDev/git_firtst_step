@@ -10,6 +10,9 @@ button {
     height: 35px;
     border-radius: 11px;
 }
+.num-action{
+    color: #ff7042;
+}
 td,th {
     padding : 2px;
 }
@@ -18,7 +21,8 @@ input {
     text-align: right;
 }
 table {
-
+background-color: rgb(255, 241, 250);
+    margin:auto
 }
 
 
